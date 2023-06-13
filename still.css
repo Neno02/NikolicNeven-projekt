@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color:darkgray;
+	 font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 500px;
+	background-color: midnightblue;
+	padding: 20px;				
+}
+.pozadina {background-image: url("slike-projekt/pozadina-projekt.jpg");
+}
+
+.paragraf_2 {color:darkgray;}
+@font-face{
+	font-family: "NevenNikolicFont2";
+	src: url("NevenNikolic_novo2.ttf");
+}
+h1{font-family: "NevenNikolicFont2";
+}
+h2,h3{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+a:link   {
+	color:darkgray;
+	background-color: white;
+	padding: 5px;
+    line-height: 40px;
+	border: 1px solid #000000;
+}
+nav ul li {display: inline;
+}
+a:hover{
+	background-color: darkgray;
+}
+img {
+	height: 200px;
+}
